@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Mon Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Saber Omari</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html#home" class="nav__link active">accueil</a></li>
+                        <li class="nav__item"><a href="index.html#about" class="nav__link">Présentation</a></li>
+                        <li class="nav__item"><a href="index.html#forma" class="nav__link">Formation</a></li>
+                        <li class="nav__item"><a href="index.html#work" class="nav__link">Expérience Professionnelles</a></li>
+                        <li class="nav__item"><a href="index.html#proj" class="nav__link">Projet</a></li>
+                        <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title" style="font-size: 2.3em;">SAE21<br><p>Concevoir un réseau multisite</p></h1>
+                </div>
+                    
+                    <img src="assets/img/sae21.png" alt="">
+            
+                </div>
+
+                
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Présentation du Projet</h2>
+                    
+                <div class="about__container">
+                        <h2 class="about__subtitle">Introduction</h2>
+                        <p class="about__text"><p>
+                            <p>Ce projet s'inscrit dans le niveau 1 des attentes du BUT Réseaux et télécommunications que l'on peut voir ci-dessous :<br></p>
+                            <p><img src="assets/img/arbrecomp.png" alt=""></p>
+
+                            <p>J'ai pu donc lors de ce projet, mettre toutes les compétences que j'ai pu apprendre et acquérir tout au long de cette première année.
+                                <br>
+                            
+                            </p>
+
+                           <p>Notamment assister l'administrateur réseaux en créant des VLAN (permet la séparation de réseau pour éviter que les données se mélangent aux autres réseaux) et en octroyant des adresses IP à chaque machine.
+                            <br>
+                        
+                        </p> 
+
+                           <p><img src="assets/img/admin.png" alt=""></p>
+                           <p>Comme on peut le voir ici, j'ai crée une partie du réseau avec un vlan nommé administration avec comme adresse réseau 192.168.1.0. <br></p>
+
+                           <p>Découvrir les transmissions et la TOIP en choisissant les meilleurs câbles/ports et equipements actifs (switch/routeur) pour avoir de meilleur débit lors de transmissions de données.
+
+                            <br>
+                        
+                            <p><img src="assets/img/toip.png" alt=""></p>
+
+                            <p>Ci-dessus, en entouré et sous-ligné  ce sont les ports utilisés et modèles de switch/routeurs que j'ai utilisé pour garantir un débit plus que suffisant. <br></p>
+
+                            <br>
+
+                        </p> 
+
+                        <p> Ce fut une SAE très enrichissante qui nous a mis au défi concevoir un réseau avec toutes nos connaissances apprises tout au long de l'année.<br></p>
+
+
+
+                    </div>                                   
+                </div>
+            </section>
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Nom & Prénom" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" placeholder="Laissez un Message !" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Envoyer" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Saber Omari</p>
+            <div class="footer__social">
+                    <a href="https://www.linkedin.com/in/deepak14ri/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <p class="footer__copy">&#169; My Portfolio. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
